@@ -1,37 +1,33 @@
 # Pirovani Watches Club
 
-O Pirovani Watches Club será a DApp do projeto Pirovani Watches e permitirá aos detentores dos tokens
-PRVN e PWTK interagirem entre si e com a Pirovani Watches.
+The Pirovani Watches Club, throughout this document we use the acronym PWC to refer to the club, is a Dapp that allows users, who have PRVNs/PWTKs in their wallets, interact with each other and with Pirovani Watches, as well as transact watches and tokens.
 
 ## Features
 
-- 
+- DEX
+- Collections Catalogs
+- Polls
+- Watches Customization Area
+- Forum
+- News
+- Support Area
+- Associate Area
+- Jewler's Workshop
 
 ## Frameworks
 
+- Angular 6
+- Bootstrap 4
+- TronWeb v2.1.5
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+## Install Dependecies
+
+Run `npm i` to install de dependencies of the project. 
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help about our project visit [Pirovani Watches](https://pirovaniwatches.com).
