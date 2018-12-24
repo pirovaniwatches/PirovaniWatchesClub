@@ -1,0 +1,23 @@
+.user-access {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    img {
+        width: 15%;
+    }
+    .data {
+        width: calc(85% - 15px);
+        margin-left: 15px;
+        .user-access-title {
+            color: var(--textos-normais);
+            font-size: 1.3rem;
+            margin-bottom: 0.3rem;
+        }
+        .user-access-last {
+            color: var(--textos-normais);
+            font-size: .6rem;
+        }
+    }
+}
+@media (min-width: 992px) {
+}

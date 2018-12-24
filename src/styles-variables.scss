@@ -1,0 +1,119 @@
+
+//
+// Color system
+//
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$grays: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$grays: map-merge(
+  (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+  ),
+  $grays
+);
+
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+
+$roxoEscuro: #312A6C;
+$cinzaMedio: #646464; //(textos)
+$cinzaClaro: #F0F0F0;
+$roxoClaro:  #702B6F; //(Roadmap)
+$blue:       #337AB7 !default;
+$green:      #5CB85C !default;
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    "blue":       $blue,
+    "indigo":     $indigo,
+    "purple":     $purple,
+    "pink":       $pink,
+    "red":        $red,
+    "orange":     $orange,
+    "yellow":     $yellow,
+    "green":      $green,
+    "teal":       $teal,
+    "cyan":       $cyan,
+    "white":      $white,
+    "gray":       $gray-600,
+    "gray-dark":  $gray-800
+  ),
+  $colors
+);
+
+
+$primary:       $roxoEscuro !default; //$blue !default;
+$secondary:     $cinzaMedio !default; //$gray-600 !default;
+$success:       $green !default;
+$info:          $blue !default; //$cyan !default;
+$warning:       $yellow !default;
+$danger:        $roxoClaro !default; //$red !default;
+$light:         $cinzaClaro !default; //$gray-100 !default;
+$dark:          $gray-800 !default;
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+  ),
+  $theme-colors
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+$border-radius:               0; //.25rem !default;
+$border-radius-lg:            0; //.3rem !default;
+$border-radius-sm:            0; //.2rem !default;
+
+@import '~bootstrap/scss/bootstrap-grid';
+
+$fa-font-path: "../node_modules/font-awesome/fonts";
+
+// $font-size-base: 0.8rem !default; // Assumes the browser default, typically `16px`
+
+$line-height-lg: 1.3;             //1.5 !default;
+$line-height-sm: 1.3;             //1.5 !default;
+$line-height-base: 1.3;           //1.5 !default;

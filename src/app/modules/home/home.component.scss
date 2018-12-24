@@ -1,0 +1,29 @@
+.home {
+    main {
+        margin-top: 15px;
+    }
+    .latest-news {
+        padding-top: 15px;
+        height: auto;
+        background-color: var(--panels);
+        color: var(--titulos);
+        .btn-view-all {
+            color: var(--titulos);
+        }
+    }
+}
+@media (min-width: 992px) {
+    .home {
+        main {
+            width: 74.42vw;
+            display: inline-flex;
+        }
+        .latest-news {
+            display: inline-flex;
+            width: 24.58vw;
+            height: calc(100vh - 5rem);
+            position: fixed;
+            right: 0;
+        }
+    }
+}

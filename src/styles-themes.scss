@@ -1,0 +1,117 @@
+
+
+body.theme-light {    
+    --bg-navbar: #FFFFFF; //BG Navbar 
+    --bg: #F5F5FA; //BG 
+    --panels: #FFFFFF; //Panels 
+    --titulos: #312A6C; //Links ativos - navbar - textos panels  
+    --textos-normais: #707070; //Textos normais 
+    --bg-highlights: #F5F5F5; //BG - highlights panels 
+    --icones: #702B6F; //Subtítulos - ícones 
+    --error: #F9354C; //Erro - avisos negativos - saída 
+    --sucesso: #5CB85C; //Sucesso - avisos positivos - entrada
+    --url-logo: url('assets/imgs/logo/prnv-dapp-logo-light.png');
+
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+body.theme-dark {
+    --bg-navbar: #111229; //BG Navbar 
+    --bg: #151635; //BG 
+    --panels: #1B1F3D; //Panels 
+    --titulos: #564987; //Títulos panels - textos - links - botões
+    --textos-normais: #737DAA; //Textos normais 
+    --texto-destaque: #CDCDDC; //Textos destaques 
+    --error: #F9354C; //Erro - avisos negativos - saída 
+    --sucesso: #5CB85C; //Sucesso - avisos positivos - entrada 
+    --texto-link-inativo: #323750; //Texto (link) inativo - não selecionado
+    --icones: #8C145F; //Textos destaques - ícones 
+    --url-logo: url('assets/imgs/logo/prnv-dapp-logo-dark.png');    
+
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+:root {
+    //ligth
+    --bg-navbar: #FFFFFF; //BG Navbar 
+    --bg: #F5F5FA; //BG 
+    --panels: #FFFFFF; //Panels 
+    --titulos: #312A6C; //Links ativos - navbar - textos panels  
+    --textos-normais: #707070; //Textos normais 
+    --bg-highlights: #F5F5F5; //BG - highlights panels 
+    --icones: #702B6F; //Subtítulos - ícones 
+    --error: #F9354C; //Erro - avisos negativos - saída 
+    --sucesso: #5CB85C; //Sucesso - avisos positivos - entrada
+    --url-logo: url('assets/imgs/logo/prnv-dapp-logo-light.png');
+
+    //dark
+    --bg-navbar: #111229; //BG Navbar 
+    --bg: #151635; //BG 
+    --panels: #1B1F3D; //Panels 
+    --titulos: #564987; //Títulos panels - textos - links - botões
+    --textos-normais: #737DAA; //Textos normais 
+    --texto-destaque: #CDCDDC; //Textos destaques 
+    --error: #F9354C; //Erro - avisos negativos - saída 
+    --sucesso: #5CB85C; //Sucesso - avisos positivos - entrada 
+    --texto-link-inativo: #323750; //Texto (link) inativo - não selecionado
+    --icones: #8C145F; //Textos destaques - ícones 
+    --url-logo: url('assets/imgs/logo/prnv-dapp-logo-dark.png');
+
+}
+
+////////////////
+//   NAVBAR  ///
+////////////////
+.navbar-menu,
+.navbar-menu ul,
+.navbar-menu .nav-item {
+    background-color: var(--bg-navbar, #FFFFFF);
+}
+
+
+////////////////
+//   BODY    ///
+////////////////
+body {
+    background-color: var(--bg);
+}

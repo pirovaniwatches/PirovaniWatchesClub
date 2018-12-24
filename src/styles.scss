@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "styles-fonts";
+@import "styles-variables";
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap';
+@import "styles-themes";
+
+@import '~font-awesome/scss/font-awesome.scss';
+
+//reset
+.form-control:focus,
+.btn:focus {
+    box-shadow: none !important;
+}
+body {
+    font-family: Lato, sans-serif;
+}
+:root{
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: Lato, sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
