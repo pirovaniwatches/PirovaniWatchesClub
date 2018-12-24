@@ -1,4 +1,14 @@
-# Angular6Bt4Fw4Pwa
+# Pirovani Watches Club
+
+O Pirovani Watches Club será a DApp do projeto Pirovani Watches e permitirá aos detentores dos tokens
+PRVN e PWTK interagirem entre si e com a Pirovani Watches.
+
+## Features
+
+- 
+
+## Frameworks
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
