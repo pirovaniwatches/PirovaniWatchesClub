@@ -1,0 +1,13 @@
+<div class="card w-100">
+  <button *ngIf="hasOptions" class="card-options" >...</button>
+  <div *ngIf="hasHeader" class="card-header">
+    <ng-content select=".content-header"></ng-content>
+  </div>
+  <img class="card-img-top" *ngIf="image" [src]="image" />
+  <div class="card-body">
+    <ng-content select=".content-body"></ng-content>
+  </div>
+  <div *ngIf="hasFooter" class="card-footer">
+    <ng-content select=".content-footer"></ng-content>
+  </div>
+</div>

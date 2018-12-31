@@ -10,7 +10,8 @@ const COMPONENTS_LIST = [
   COMPONENTS.LoadingComponent, 
   COMPONENTS.PageNotFoundComponent,
   COMPONENTS.UserAccessComponent,
-  COMPONENTS.LatestNewsComponent
+  COMPONENTS.LatestNewsComponent,
+  COMPONENTS.CardComponent
 ];
 
 @NgModule({

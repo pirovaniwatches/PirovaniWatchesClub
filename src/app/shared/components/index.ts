@@ -1,3 +1,4 @@
+import { CardComponent } from './card/card.component';
 import { LatestNewsComponent } from './latest-news/latest-news.component';
 import { UserAccessComponent } from './user-access/user-access.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -7,5 +8,6 @@ export {
     LoadingComponent,
     PageNotFoundComponent,
     UserAccessComponent,
-    LatestNewsComponent
+    LatestNewsComponent,
+    CardComponent
 };

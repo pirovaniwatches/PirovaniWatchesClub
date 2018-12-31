@@ -1,0 +1,48 @@
+.card {
+    background-color: var(--panels);
+    color: var(--textos-normais);
+    position: relative;
+    box-shadow: 0rem 0rem 0.75rem rgba(0, 0, 0, 0.15);
+
+    .card-header{
+        background-color: var(--panels);
+    }
+    .card-footer {
+        background-color: var(--panels);
+        .content-footer{
+            display: flex;
+        }
+    }
+
+    .card-title {
+        font-size: .6rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: var(--titulos);
+    }
+    .card-btn-details {
+        font-size: .6rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: var(--titulos);
+    }
+
+    .card-options {
+        position: absolute;
+        top: 0px;
+        right: 10px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background-color: transparent;
+        border: none;
+        font-size: 1.5rem;
+        color: var(--titulos);
+        cursor: pointer;
+        outline: none;
+        
+        &:focus {
+            outline: none;
+        }
+    }
+}

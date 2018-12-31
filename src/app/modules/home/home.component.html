@@ -1,18 +1,133 @@
 <div class="home">
-  <main>
-
-    <div class="col-12 col-lg-4">
-      <div class="col-12">
-        <app-user-access></app-user-access>
+  <main class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-lg-4">
+        <app-user-access class="d-block mb-2"></app-user-access>
+        <app-card [hasFooter]="true" class="w-100">
+          <div class="content-body">
+            <h5 class="card-title">PROFILE STATUS</h5>
+            <div class="row">
+              <div class="col">
+                <p class="card-text">GOLD PARTNER</p>
+              </div>
+              <div class="col">
+                <p>NEXT LEVEL</p>
+              </div>
+            </div>
+            <h5 class="card-title">COLLECTION</h5>
+            <div class="row card-collection">
+              <div class="col-3">
+                <img src="http://www.pirovaniwatches.com/assets/imgs/product/05-ledger-pvd-black.png" class="img-responsive mw-100" />
+                <p>LEDGER PVD</p>
+              </div>
+              <div class="col-3">
+                <img src="http://www.pirovaniwatches.com/assets/imgs/product/04-ledger-ceramic-blue.png" class="img-responsive mw-100" />
+                <p>LEDGER CERAMIC BLUE</p>
+              </div>
+            </div>
+          </div>
+          <div class="content-footer">
+            <a href="#" class="card-btn-details ml-auto">DETAILS &nbsp; <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+          </div>
+        </app-card>
       </div>
+      <div class="col-12 col-lg-8">
+        <app-card [hasOptions]="true" class="w-100 h-100">
+          <div class="content-body">
+            <h5 class="card-title">charts</h5>
+            <div class="row">
+              <div class="col">
+                <p class="card-text">market value</p>
+              </div>
+              <div class="col">
 
+              </div>
+            </div>
+          </div>
+        </app-card>
+      </div>
     </div>
-    <div class="col-12 col-lg-8">
 
+    <div class="row">
+      <div class="col-12 col-lg-4">
+        <app-card [hasFooter]="true" [hasOptions]="true" class="w-100">
+          <div class="content-body">
+            <h5 class="card-title">my balance</h5>
+            <div class="row">
+              <div class="col">
+                <h5 class="card-title text-info">prvn</h5>
+                <h1 class="text-info">102,000</h1>
+              </div>
+              <div class="col">
+                <h5 class="card-title text-danger">tron</h5>
+                <h1 class="text-danger">1,200,000</h1>
+              </div>
+            </div>
+          </div>
+          <div class="content-footer">
+            <a href="#" class="card-btn-details ml-auto">buy now &nbsp; <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+          </div>
+        </app-card>
+        <app-card [hasOptions]="true" class="w-100">
+          <div class="content-body">
+            <h5 class="card-title">my wallet</h5>
+            <div class="row">
+              <div class="col">
+                <h5 class="card-title">address</h5>
+                <div class="row">
+                  <div class="col-8">
+                    <p class="mb-0 textos-normais">044a4f54dsrtg7965dwgrgfr875489</p>
+                  </div>
+                  <div class="col-2 text-center">
+                    <a href="#" class="d-flex"> <i class="fa fa-eye textos-normais font-weight-bold" aria-hidden="true"></i></a>
+                  </div>
+                  <div class="col-2 text-center">
+                    <a href="#" class="d-flex"> <i class="fa fa-clone textos-normais font-weight-bold" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </app-card>
+      </div>
+      <div class="col-12 col-lg-8">
+        <div class="row h-100">
+          <div class="col-12 col-lg-6">
+            <app-card [hasFooter]="true" [hasOptions]="true" class="w-100 h-100">
+              <div class="content-body">
+                <h5 class="card-title">recent transactions</h5>
+                <div class="row">
+                  <div class="col">
+                  </div>
+                  <div class="col">
+                  </div>
+                </div>
+              </div>
+              <div class="content-footer">
+                <a href="#" class="card-btn-details ml-auto">VIEW ALL &nbsp; <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+              </div>
+            </app-card>
+          </div>
+          <div class="col-12 col-lg-6">
+            <app-card [hasFooter]="true" [hasOptions]="true" class="w-100 h-100">
+              <div class="content-body">
+                <h5 class="card-title">messages</h5>
+                <div class="row">
+                  <div class="col">
+                    <p class="card-text">compose</p>
+                  </div>
+                </div>
+              </div>
+              <div class="content-footer">
+                <a href="#" class="card-btn-details ml-auto">VIEW ALL &nbsp; <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+              </div>
+            </app-card>
+          </div>
+        </div>
+      </div>
     </div>
-  
   </main>
-  <aside class="latest-news">
+  <aside class="latest-news container-fluid">
     <div class="col-12">
       <app-latest-news></app-latest-news>
     </div>
