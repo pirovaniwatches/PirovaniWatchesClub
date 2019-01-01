@@ -14,6 +14,8 @@ The Pirovani Watches Club, throughout this document we use the acronym PWC to re
 - Associate Area
 - Jewler's Workshop
 
+More details on [Pirovani Watches DApp Specs](https://drive.google.com/open?id=1Zw4FyT-TRCxjM4ChKC-fh2Rg8v9tmqLd)
+
 ## Frameworks
 
 - Angular 6
